@@ -1,0 +1,23 @@
+{
+    "sites" : [{
+        "scanURL" : "http://127.0.0.1:1444/openapi.json",
+        "project" : "/Volumes/untitled/burp/burppython/project.burp",
+        "apikey" : "43MTM2ECrIp7puKzHa5lwhqxjRUtRciR"
+      }
+    ],
+    "burpConfigs" : [
+
+        {
+            "memory" : "2048m",
+            "headless" : "true",
+            "java" : "/usr/bin/java",
+            "burpJar" : "/Volumes/untitled/burp/burppython/burpsuite_pro_v2021.8.jar",
+            "retry" : 5,
+            "logPath" : "/Volumes/untitled/burp/burppython/ScanOutput/",
+            "logfileName" : "SimpleAutoBurp",
+            "loglevel" : "debug",
+            "ScanOutput" : "/Volumes/untitled/burp/burppython/ScanOutput/",
+            "javaagent" : "-javaagent:/Volumes/untitled/burp/burppython/BurpSuiteLoader_v2021.8.jar"
+        }
+      ]
+}
