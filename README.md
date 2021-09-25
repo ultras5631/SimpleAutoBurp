@@ -55,7 +55,7 @@ The script needs a config.json with the configuration, here we have an example:
 ## Execute
 
 ```
-SimpleAutoBurp.py /home/ec2-user/config.json
+python3 SimpleAutoBurp.py config.json
 ```
 
 ## Schedule Scan
